@@ -1,0 +1,25 @@
+table, th, td {
+    margin: 0 auto;
+    border: 1px solid #1b0303;
+    border-collapse: collapse;
+    width: 70%;
+    height: 36px;
+}
+th{
+    font-size: 30px;
+    padding: 10px;
+    height: 60px;
+    color: rgb(174, 164, 184);
+    background-color: yellow;
+}
+tr{
+    height: 20px;
+    padding: 15px;
+}
+tr:nth-child(odd) {background-color: #cfc3c3;
+}
+
+
+tr:hover{
+   background-color: blue;
+}
